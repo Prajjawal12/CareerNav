@@ -32,7 +32,7 @@ const Navbar = () => {
             </Link>
             <Link to="/about">
               <li className="cursor-pointer text-emerald-500 hover:text-gray-500">
-                About Me
+                About
               </li>
             </Link>
             <Link to="/services">
