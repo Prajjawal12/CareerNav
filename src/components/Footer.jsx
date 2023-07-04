@@ -53,9 +53,11 @@ const Footer = () => {
               </div>
             </a>
 
-            <div className="p-4 bg-[#E9F8F3] rounded-xl">
-              <FaGithub size={25} style={{ color: '#4DC39E' }} />
-            </div>
+            <a href="https://github.com/Prajjawal12/CareerNav/">
+              <div className="p-4 bg-[#E9F8F3] rounded-xl">
+                <FaGithub size={25} style={{ color: '#4DC39E' }} />
+              </div>
+            </a>
           </div>
         </div>
 
