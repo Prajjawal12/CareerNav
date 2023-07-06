@@ -50,7 +50,7 @@ function Scope_Future() {
     <div className="px-4 py-8 bg-gradient-to-br from-rose-400 to-rose-600 h-screen">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-slate-600 text-center underline underline-offset-4">
-          Insights in a Field
+          The Future Scope of the Profession
         </h1>
         <p className="mb-4 text-center text-white font-thin">
           Simply write the name of the course you want to get insights about.
