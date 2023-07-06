@@ -1,7 +1,7 @@
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CourseRecommandations from './pages/CourseRecommandations';
+
 import ContentGeneration from './pages/Content';
 import College_Course from './pages/College_Course';
 import Skills from './pages/Skills';
@@ -19,10 +19,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/course-recommendations"
-            element={<CourseRecommandations />}
-          />
+
           <Route path="/content" element={<ContentGeneration />} />
           <Route path="/college-courses" element={<College_Course />} />
           <Route path="scope-future" element={<ScopeNFuture />} />

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Configuration, OpenAIApi } from 'openai';
-import { OPENAI_API_KEY } from '../../config';
 
 function Scope_Future() {
   const [heading, setHeading] = useState(
@@ -16,7 +15,7 @@ function Scope_Future() {
 
     // OpenAI API
     const configuration = new Configuration({
-      apiKey: OPENAI_API_KEY,
+      apiKey: import.meta.env.VITE_OPEN_AI_API_KEY,
     });
 
     const openai = new OpenAIApi(configuration);
