@@ -55,3 +55,4 @@ Technologies used in the project:
 *   React.Js
 *   TailwindCSs
 *   OpenAI
+*   React Icons
