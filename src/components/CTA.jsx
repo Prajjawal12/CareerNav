@@ -9,7 +9,7 @@ const CTA = () => {
         <div>
           <h1 className="py-2  text-3xl font-semibold">
             Join <span className="text-[#20B486]">An Initiative</span> Like
-            Never Before{' '}
+            Never Before
           </h1>
           <p className="py-2 text-lg text-gray-600">
             Get started with using our services now
